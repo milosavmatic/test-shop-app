@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    top: 0 !important;
+}
+
+
+.notranslate .rs-picker-default .rs-btn,
+.rs-picker-default .rs-picker-toggle,
+.rs-picker-input .rs-btn,
+.rs-picker-input .rs-picker-toggle {
+  background-color: black !important;
+}
+
+.skiptranslate {
+  display: none;
+}
