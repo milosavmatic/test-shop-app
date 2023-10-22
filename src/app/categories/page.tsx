@@ -22,6 +22,8 @@ const getProducts = async () => {
         .then(res => res.json())
 }
 
+export const revalidate = 60
+
 const Category = async () => {
     const products: Product[] = await getProducts()
 
